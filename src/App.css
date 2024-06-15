@@ -1,0 +1,500 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* css for header */
+.headerContainer {
+  position: sticky;
+  top: 0;
+}
+.nav1 {
+  width: 100%;
+  background-color: #004aad;
+  color: #fff;
+}
+.container {
+  width: 82%;
+  margin: 0 auto;
+}
+.navContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+  font-size: 14px;
+}
+.navContent span {
+  font-size: 18px;
+  position: relative;
+  top: 5px;
+}
+#a1 {
+  vertical-align: middle;
+}
+a {
+  font-family: "Poppins";
+  text-decoration: none;
+  color: inherit;
+}
+.nav p span svg {
+  vertical-align: middle;
+  font-size: 30px;
+}
+.logos {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100px;
+  font-size: 30px;
+}
+.nav2box {
+  box-shadow: 4px 2px 6px rgba(77, 49, 49, 0.2);
+}
+.nav2 {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+}
+.mainLogo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainLogo img {
+  width: 33%;
+  border: 3px solid white;
+}
+.ulItems {
+  display: flex;
+  gap: 10%;
+  width: 30%;
+  margin: auto 0;
+  font-size: 20px;
+  font-weight: 900;
+}
+li {
+  list-style-type: none;
+}
+
+/* css for FAQ */
+.perfectMatch {
+  margin: 50px 0;
+}
+.faq-container {
+  max-width: 1050px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.faq-item {
+  margin: 30px 0;
+}
+
+.faq-question {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: #fff;
+  background-color: #1f263a;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.faq-symbol {
+  color: #fff;
+  background: none;
+  border: none;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.faq-answer {
+  font-size: 20px;
+  color: #1f263a;
+  font-weight: 500;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+}
+
+/* css for input feild in faq page */
+.postQuestions {
+  margin-top: 80px;
+}
+
+.form-container {
+  color: #1f263a;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 15px;
+  margin: 25px 0;
+
+  border: 2px solid #1f263a;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  font-size: 22px;
+  width: 150px;
+  padding: 10px;
+  background-color: #1f263a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-cover {
+  text-align: center;
+}
+.response-genrate {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* css for dashboard */
+
+.container h2 {
+  font-family: "Open Sans";
+  font-size: 36px;
+  color: #003b94;
+  display: block;
+  font-weight: 900;
+  padding: 20px 0;
+}
+
+.container p {
+  font-size: 20px;
+
+  font-family: "Poppins";
+}
+.outerBox {
+  width: 100%;
+  display: flex;
+  border: 1px solid #e1e3e6;
+}
+.leftPart {
+  width: 35%;
+  margin: 40px 0;
+  border: 1px solid #e1e3e6;
+}
+.statements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  margin: 50px 0;
+}
+.statements h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #003b94;
+}
+.statements p {
+  margin: auto;
+  color: grey;
+  font-size: 17px;
+}
+h1.size {
+  font-size: 40px;
+  margin: auto;
+  font-weight: 900;
+}
+.seminarOutputs {
+  padding: 0 50px 35px 50px;
+}
+.seminarOutputs ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: "Poppins";
+  font-size: 17px;
+}
+.seminarOutputs ul li {
+  list-style-type: circle;
+}
+.rightPart {
+  margin: 40px 0;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.rightPart img {
+  margin: 0 0 50px 0;
+}
+.SeminarDes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 800px;
+  height: 50px;
+  text-align: center;
+  background-color: #003b94;
+  color: white;
+}
+.SeminarDes h1 {
+  font-size: 30px;
+}
+
+/* css for upcoming seminars */
+
+.container {
+  width: 82%;
+  margin: 0 auto;
+}
+.heroProducts .perfectMatch {
+  padding: 30px 0 0 0;
+  width: 40%;
+}
+.heroProducts .perfectMatch h2 {
+  font-family: "Open Sans";
+  font-size: 36px;
+  color: #003b94;
+  display: block;
+  font-weight: 900;
+  padding: 20px 0;
+}
+.heroProducts .perfectMatch p {
+  font-size: 20px;
+
+  font-family: "Poppins";
+}
+.line {
+  height: 10px;
+  background-color: #003b94;
+  width: 68%;
+  margin-top: 10px;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 50px 0;
+  gap: 30px;
+}
+.upcomingSeminarContainer {
+  margin: 2%;
+
+  width: 90%;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0.9px solid grey;
+}
+
+.productImg {
+  width: 50%;
+  padding: 20px 0 0 0;
+}
+.productName {
+  margin: 10px;
+}
+.upperPart {
+  height: 100px;
+
+  background-color: #1f263a;
+  display: flex;
+  top: 0%;
+  width: 100%;
+  background-color: 1f263a;
+}
+.leftContent {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8vw;
+  font-family: "cursive";
+  color: white;
+  font-family: "Open Sans";
+}
+.verticalLine {
+  height: 75%;
+  margin: 1.2% 0;
+
+  width: 2px;
+  border: 2px solid white;
+}
+.bigFont {
+  font-size: 1.7vw;
+  padding: 10px 0 0 10px;
+  color: white;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.smallFont {
+  font-size: 1.5vw;
+  color: white;
+  font-family: "Open Sans";
+  padding: 7px 0 0 10px;
+}
+.downPart {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.downPart h1 {
+  margin: 20px 0 0 25px;
+  font-size: 28px;
+  color: #003b94;
+  font-family: "Open Sans";
+}
+.downPart p {
+  margin: 5px 0 0 25px;
+  color: grey;
+  font-size: 19px;
+}
+.moreDetails {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0 0 0;
+}
+.lastDate span {
+  font-size: 23px;
+  color: #003b94;
+  font-family: "Open Sans";
+  font-weight: bold;
+  letter-spacing: 0.3px;
+}
+.actualDate {
+  display: inline;
+  margin: 0 0 0 5px;
+  font-weight: 600;
+  font-size: 22px;
+}
+.lastDate {
+  margin: 0 50px 0 0;
+}
+.applyButton {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.applyButton button {
+  background-color: #1f263a;
+  color: #fff;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  font-size: 17px;
+  border: 1px solid #0078ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* css for footer */
+.footer {
+  border-top: 2px solid silver;
+  border-bottom: 2px solid silver;
+  display: flex;
+  width: 100%;
+}
+.intro {
+  width: 40%;
+  border-right: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+.intro img {
+  height: 120px;
+  width: 120px;
+}
+.intro p {
+  width: 100%;
+}
+.innerBox {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: auto;
+  width: 70%;
+}
+.quickLinks {
+  width: 30%;
+  border-right: 1px solid grey;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 3% 10%;
+  width: 70%;
+}
+.contactDetails {
+  width: 30%;
+}
+.quickLinks {
+  display: flex;
+  flex-direction: column;
+}
+.linkSections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.linkSections li {
+  list-style: none;
+  color: inherit;
+}
+.linkSections li a {
+  text-decoration: none;
+  color: inherit;
+}
+.innerBox3 {
+  margin: 3% 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  width: 85%;
+}
+.personalContact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.mainLinks {
+  display: flex;
+  gap: 20px;
+}
+.details {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
