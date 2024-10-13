@@ -9,8 +9,10 @@ function App() {
     <div>
       <Header />
       <Outlet />
+      {/* Adding a Footer Component */}
+<Footer/>
+      
 
-      <Footer />
     </div>
   );
 }
