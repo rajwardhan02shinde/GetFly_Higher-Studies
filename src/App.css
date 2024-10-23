@@ -408,76 +408,92 @@ h1.size {
 }
 /* css for footer */
 .footer {
-  border-top: 2px solid silver;
-  border-bottom: 2px solid silver;
+  border-top: 2px solid #ccc; /* Lighter border for better contrast */
+  border-bottom: 2px solid #ccc;
   display: flex;
   width: 100%;
+  background-color: #f8f9fa; /* Light background for contrast */
+  padding: 20px 0; /* Add some vertical padding */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
+
 .intro {
   width: 40%;
-  border-right: 1px solid grey;
+  border-right: 1px solid #d3d3d3; /* Lighter border */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10%;
+  padding: 0 20px; /* Add some horizontal padding */
 }
+
 .intro img {
   height: 120px;
   width: 120px;
+  border-radius: 50%; /* Rounded image for a modern look */
+  object-fit: cover; /* Ensure the image fits nicely */
 }
+
 .intro p {
   width: 100%;
+  text-align: center; /* Center the text for a balanced look */
+  color: #333; /* Darker text for better readability */
 }
+
 .innerBox {
   display: flex;
   flex-direction: column;
   gap: 30px;
   margin: auto;
   width: 70%;
+  padding: 0 20px; /* Add horizontal padding */
 }
+
 .quickLinks {
   width: 30%;
-  border-right: 1px solid grey;
+  border-right: 1px solid #d3d3d3; /* Lighter border */
   display: flex;
-  align-items: center;
-  gap: 30px;
+  flex-direction: column; /* Make sure links stack vertically */
+  align-items: flex-start; /* Align links to the start */
+  gap: 20px; /* Reduce gap for better spacing */
+  padding: 0 20px; /* Add horizontal padding */
 }
-.inner {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  margin: 3% 10%;
-  width: 70%;
-}
-.contactDetails {
-  width: 30%;
-}
-.quickLinks {
-  display: flex;
-  flex-direction: column;
-}
+
 .linkSections {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px; /* Adjusted gap for better spacing */
 }
+
 .linkSections li {
   list-style: none;
-  color: inherit;
+  color: #007bff; /* Bootstrap primary color for links */
+  transition: color 0.3s; /* Smooth color transition */
 }
+
+.linkSections li:hover {
+  color: #0056b3; /* Darker shade on hover */
+}
+
 .linkSections li a {
   text-decoration: none;
-  color: inherit;
+  color: inherit; /* Ensure the link inherits the color */
+  transition: text-decoration 0.3s; /* Smooth transition for underline */
 }
+
+.linkSections li a:hover {
+  text-decoration: underline; /* Underline on hover for emphasis */
+}
+
 .innerBox3 {
   margin: 3% 10%;
   display: flex;
   flex-direction: column;
   gap: 30px;
-
   width: 85%;
 }
+
 .personalContact {
   display: flex;
   flex-direction: column;
@@ -489,12 +505,28 @@ h1.size {
   flex-direction: column;
   gap: 10px;
 }
+
 .mainLinks {
   display: flex;
   gap: 20px;
 }
+
 .details {
   display: flex;
   align-items: center;
   gap: 15px;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column; /* Stack items on smaller screens */
+    align-items: center;
+  }
+
+  .intro, .quickLinks, .contactDetails {
+    width: 100%; /* Full width on mobile */
+    border-right: none; /* Remove borders on smaller screens */
+  }
+}
+
